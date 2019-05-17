@@ -1,0 +1,41 @@
+Basics that you need to get started with GIT
+
+Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account.
+
+1. Generate SSH key from remote server and add it to GITHUB SSH KEYs.
+(Don't use '$' sign in the beginning as in do not copy it to the terminal)
+
+$ git config --global user.name "username" 
+$ git config --global user.email "user-email-address" 
+
+
+--Remove the previous origin if present 
+$ git remote rm origin 
+
+--Add the git repo url as origin $ git remote add origin SSH-url-of-GIT-repo 
+
+--Generating the SSH key for adding it to the GIT account 
+$ cd ~/.ssh 
+$ ssh-keygen 
+
+--Opening the generated key for displaying it in the terminal. Copy the key and add it to the git account. 
+$ cat ~/.ssh/id_rsa.pub 
+Add this key to your github account. 
+
+$ ssh -T git@github.com 
+You will get a welcome message in your console. 
+
+Now go your project folder. git push -u origin master, now it will works! 
+
+2. Steps to follow before pushing the files from the repository to GIT account. 
+first of all go to the project folder and the initialize Git init command as: 
+
+$ git init 
+
+$ git remote add origin SSH-url-of-GIT-repo 
+
+(Do not forget to add all the files and commit the changes before pushing the files to GIT account) 
+
+$ git add . 
+$ git commit -m "initial commit" 
+$ git push origin master 
