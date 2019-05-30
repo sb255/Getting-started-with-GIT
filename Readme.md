@@ -59,3 +59,89 @@ first of all go to the project folder and the initialize Git init command as:   
 
 
 ------------------------------------------------------------------------------------------------------------------------------
+
+# Useful Git commads: 
+
+</br>
+$ git add . </br>
+It adds all the changes that you have made on the working repository to the staging area. 
+</br>
+</br>
+$ git commit -m “initial commit”</br>
+It commits all the changes to the staging area to the remote repository. 
+</br>
+
+
+</br>
+$ git log</br>
+Use this command to see all the commit history. 
+</br>
+</br>
+$ git status</br>
+Use this command to see all the modifications done to the staging area and working repository. 
+</br>
+
+</br>
+$ git diff</br>
+Use this command to see the differences between the working reposiroty and the staging area.
+</br>
+
+</br>
+$ git diff --staged</br>
+Use this command to view the difference between the staging area and the remote repository. 
+</br>
+
+</br>
+HEAD: HEAD is actually your current commit, or you can say it is your latest commit.</br> 
+Origin: The remote repository is known as origin, which is present on the GitHub account. 
+</br>
+</br>
+$ git reset --hard HEAD</br>
+It will remove all the tracked and the untracked changes, it means it will remove all the work done in that is saved to the staging area or not saved to the staging area until the latest commit. The removed data can-not be brought back. 
+</br>
+
+</br>
+$ git reset --hard origin/master</br>
+It will remove all the uncommitted changes from the current branch and will make it same as remote repository. 
+</br>
+
+</br>
+$ git push origin master</br>
+Meaning: It means to push all local changes from master to your remote repository origin. 
+</br>
+
+</br>
+$ git push origin master:my_data_branch</br> 
+It means that you are pushing changes from your local master to remote origin, but it is renamed to origin/my_data_branch.
+</br>
+
+</br>
+$ git branch new_branch</br>
+It means you are creating a new branch named as new_branch. 
+</br>
+
+</br>
+$ git checkout new_branch</br>
+It means you are now moved to the new_branch. 
+</br>
+
+</br>
+$ git checkout -b new_branch</br>
+It means that you have created a new branch new_branch and you have moved to the newly created branch new_branch. 
+</br>
+
+</br>
+$ git merge new_branch master</br> 
+Note: Before merging the two branches, use git checkout master and then use this command so that you stays on Master and the new_branch is merged to the master branch. 
+</br>
+
+</br>
+$ git -d new_branch</br>
+Used for deleting a branch.</br>
+
+
+
+</br>
+$ git rm --cached -f *.DS_Store</br>
+Used for removing .DS_Store folder from the remote repository as it was already present before adding the .gitignore to the remote repository. 
+</br>
