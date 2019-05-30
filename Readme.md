@@ -104,7 +104,7 @@ Origin: The remote repository is known as origin, which is present on the GitHub
 </br>
 
 ```$ git reset --hard HEAD```</br>
-It will remove all the tracked and the untracked changes, it means it will remove all the work done in that is saved to the staging area or not saved to the staging area until the latest commit. The removed data can-not be brought back. 
+It will remove all the tracked and the untracked changes, it means it will remove all the work done that is saved to the staging area ($ git add .) or not saved to the staging area until the latest commit. The removed data can-not be brought back. 
 </br>
 
 </br>
