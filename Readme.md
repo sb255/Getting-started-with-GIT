@@ -9,31 +9,31 @@ Setting the GIT account and syncing remote repository to github is sometimes tri
 
 
 ```$ git config --global user.name "username"```                                                            <br />
-$ git config --global user.email "user-email-address"                                                 <br />
+```$ git config --global user.email "user-email-address"```                                                 <br />
                                                                                                       <br />
 
 --Remove the previous origin if present                                                                 <br />
-$ git remote rm origin                                                                                <br />
+```$ git remote rm origin```                                                                                <br />
 
---Add the git repo url as origin 
-$ git remote add origin SSH-url-of-GIT-repo                                                           <br />
+--Add the git repo url as origin                                                              </br>
+```$ git remote add origin SSH-url-of-GIT-repo```                                                           <br />
   
 
 --Generating the SSH key for adding it to the GIT account                                               <br />
-$ cd ~/.ssh                                                                                           <br />
-$ ssh-keygen                                                                                          <br />
+```$ cd ~/.ssh```                                                                                           <br />
+```$ ssh-keygen```                                                                                          <br />
 
 
 --Opening the generated key for displaying it in the terminal. Copy the key and add it to the git account.       <br />
-$ cat ~/.ssh/id_rsa.pub                      <br />
+```$ cat ~/.ssh/id_rsa.pub```                      <br />
 Add this key to your github account.         <br />
 
 
-$ ssh -T git@github.com                                    <br />
+```$ ssh -T git@github.com```                                    <br />
 You will get a welcome message in your console.            <br />
 
 
-Now go your project folder. git push -u origin master, now it will works!     <br />
+Now go your project folder. git push -u origin master, now it works!     <br />
 
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -44,15 +44,15 @@ Now go your project folder. git push -u origin master, now it will works!     <b
 
 first of all go to the project folder and the initialize Git init command as:                               <br />
 
-$ git init                                               <br />
+```$ git init```                                               <br />
 
-$ git remote add origin SSH-url-of-GIT-repo              <br />
+```$ git remote add origin SSH-url-of-GIT-repo```              <br />
 
 (Do not forget to add all the files and commit the changes before pushing the files to GIT account)         <br />
 
-$ git add .                                              <br />
-$ git commit -m "initial commit"                         <br />
-$ git push origin master                                 <br />
+```$ git add .```                                              <br />
+```$ git commit -m "initial commit"```                         <br />
+```$ git push origin master```                                 <br />
 
 
 
