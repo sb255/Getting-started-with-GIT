@@ -8,7 +8,7 @@ Setting the GIT account and syncing remote repository to github is sometimes tri
 (Don't use '$' sign in the beginning as in do not copy it to the terminal)
 
 
-$ git config --global user.name "username"                                                            <br />
+'''$ git config --global user.name "username"'''                                                            <br />
 $ git config --global user.email "user-email-address"                                                 <br />
                                                                                                       <br />
 
