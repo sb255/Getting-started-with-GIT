@@ -35,9 +35,7 @@ You will get a welcome message in your console.            <br />
 
 Now go your project folder and command: 
 
-```
-git push -u origin master
-```
+```git push -u origin master```
 
 now it works!     <br />
 
