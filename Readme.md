@@ -33,7 +33,13 @@ Add this key to your github account.         <br />
 You will get a welcome message in your console.            <br />
 
 
-Now go your project folder. git push -u origin master, now it works!     <br />
+Now go your project folder and command: 
+
+```
+git push -u origin master
+```
+
+now it works!     <br />
 
 
 ------------------------------------------------------------------------------------------------------------------------------
