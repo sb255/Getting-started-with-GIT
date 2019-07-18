@@ -7,7 +7,7 @@ Setting the GIT account and syncing remote repository to github is sometimes tri
 # 1. Generate SSH key from remote server and add it to GITHUB SSH KEYs.
 (Don't use '$' sign in the beginning as in do not copy it to the terminal)
 
---Setting up the user-name and user-email                                                      <br />       
+--Setting up the user-name and user-email                                                     <br />       
 ```$ git config --global user.name "username"```                                                            <br />
 ```$ git config --global user.email "user-email-address"```                                                 <br />
                                                                                                       <br />
