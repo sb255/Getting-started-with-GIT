@@ -1,4 +1,4 @@
-# SB255-Setting-Up-Git-Account
+# Setting-Up-Git-Account
 Basics that you need to get started with GIT
 
 Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account. 
