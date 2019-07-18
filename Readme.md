@@ -10,7 +10,8 @@ Setting the GIT account and syncing remote repository to github is sometimes tri
 --Setting up the user-name and user-email, it can be set to anything depending upon which name you want to show on your commits!                                                    
 ```$ git config --global user.name "username"```                                                            <br />
 ```$ git config --global user.email "user-email-address"```                                                 <br />
-                                                                                                      <br />
+
+#### Note that the above user.name and user.email has nothing to with the credentials, you have have any user.name that you want to show on the commit message! <br />                                                                                                      <br />
 
 --Remove the previous origin if present                                                                 <br />
 ```$ git remote rm origin```                                                                                <br />
