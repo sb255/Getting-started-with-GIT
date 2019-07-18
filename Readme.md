@@ -22,7 +22,7 @@ Setting the GIT account and syncing remote repository to github is sometimes tri
 
 --Generating the SSH key for adding it to the GIT account                                               <br />
 ```$ cd ~/.ssh```                                                                                           <br />
-```$ ssh-keygen```                                                                                          <br />
+```$ ssh-keygen -t rsa -C "email_address"```                                                                                          <br />
 
 
 --Opening the generated key for displaying it in the terminal. Copy the key and add it to the git account.       <br />
