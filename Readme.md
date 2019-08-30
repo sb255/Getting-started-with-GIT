@@ -1,7 +1,7 @@
 # Setting-Up-Git-Account
 #### Basics that you need to get started with GIT
 
-Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account. 
+Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account.
 
 
 # 1. Generate SSH key from remote server and add it to GITHUB SSH KEYs.
@@ -18,7 +18,7 @@ Setting the GIT account and syncing remote repository to github is sometimes tri
 
 --Add the git repo url as origin                                                              </br>
 ```$ git remote add origin SSH-url-of-GIT-repo```                                                           <br />
-  
+
 
 --Generating the SSH key for adding it to the GIT account                                               <br />
 ```$ cd ~/.ssh```                                                                                           <br />
@@ -34,7 +34,7 @@ Add this key to your github account.         <br />
 You will get a welcome message in your console.            <br />
 
 
-Now go your project folder and command: 
+Now go your project folder and command:
 
 ```git push -u origin master```
 
@@ -65,29 +65,29 @@ first of all go to the project folder and the initialize Git init command as:   
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-# Useful Git commads: 
+# Useful Git commads:
 
 </br>
 
 ```$ git add .``` </br>
-It adds all the changes that you have made on the working repository to the staging area. 
+It adds all the changes that you have made on the working repository to the staging area.
 </br>
 </br>
 
 ```$ git commit -m “initial commit”```</br>
-It commits all the changes to the staging area to the remote repository. 
+It commits all the changes to the staging area to the remote repository.
 </br>
 
 
 </br>
 
 ```$ git log```</br>
-Use this command to see all the commit history. 
+Use this command to see all the commit history.
 </br>
 </br>
 
 ```$ git status```</br>
-Use this command to see all the modifications done to the staging area and working repository. 
+Use this command to see all the modifications done to the staging area and working repository.
 </br>
 
 </br>
@@ -99,59 +99,59 @@ Use this command to see the differences between the working reposiroty and the s
 </br>
 
 ```$ git diff --staged```</br>
-Use this command to view the difference between the staging area and the remote repository. 
+Use this command to view the difference between the staging area and the remote repository.
 </br>
 
 </br>
-HEAD: HEAD is actually your current commit, or you can say it is your latest commit.</br> 
-Origin: The remote repository is known as origin, which is present on the GitHub account. 
+HEAD: HEAD is actually your current commit, or you can say it is your latest commit.</br>
+Origin: The remote repository is known as origin, which is present on the GitHub account.
 </br>
 </br>
 
 ```$ git reset --hard HEAD```</br>
-It will remove all the tracked and the untracked changes, it means it will remove all the work done that is saved to the staging area ($ git add .) or not saved to the staging area until the latest commit. The removed data can-not be brought back. 
+It will remove all the tracked and the untracked changes, it means it will remove all the work done that is saved to the staging area ($ git add .) or not saved to the staging area until the latest commit. The removed data can-not be brought back.
 </br>
 
 </br>
 
 ```$ git reset --hard origin/master```</br>
-It will remove all the uncommitted changes from the current branch and will make it same as remote repository. 
+It will remove all the uncommitted changes from the current branch and will make it same as remote repository.
 </br>
 
 </br>
 
 ```$ git push origin master```</br>
-Meaning: It means to push all local changes from master to your remote repository origin. 
+Meaning: It means to push all local changes from master to your remote repository origin.
 </br>
 
 </br>
 
-```$ git push origin master:my_data_branc```h</br> 
+```$ git push origin master:my_data_branc```h</br>
 It means that you are pushing changes from your local master to remote origin, but it is renamed to origin/my_data_branch.
 </br>
 
 </br>
 
 ```$ git branch new_branch```</br>
-It means you are creating a new branch named as new_branch. 
+It means you are creating a new branch named as new_branch.
 </br>
 
 </br>
 
 ```$ git checkout new_branch```</br>
-It means you are now moved to the new_branch. 
+It means you are now moved to the new_branch.
 </br>
 
 </br>
 
 ```$ git checkout -b new_branch```</br>
-It means that you have created a new branch new_branch and you have moved to the newly created branch new_branch. 
+It means that you have created a new branch new_branch and you have moved to the newly created branch new_branch.
 </br>
 
 </br>
 
-```$ git merge new_branch master```</br> 
-Note: Before merging the two branches, use git checkout master and then use this command so that you stays on Master and the new_branch is merged to the master branch. 
+```$ git merge new_branch master```</br>
+Note: Before merging the two branches, use git checkout master and then use this command so that you stays on Master and the new_branch is merged to the master branch.
 </br>
 
 </br>
@@ -164,5 +164,42 @@ Used for deleting a branch.</br>
 </br>
 
 ```$ git rm --cached -f *.DS_Store```</br>
-Used for removing .DS_Store folder from the remote repository as it was already present before adding the .gitignore to the remote repository. 
+Used for removing .DS_Store folder from the remote repository as it was already present before adding the .gitignore to the remote repository.
+</br>
+
+
+`cd .ssh`
+Viewing the private key stored in Mac for SSH
+</br>
+
+`ssh-keygen -p -f ~/.ssh/id_rsa`
+Adding a passphrase to the private key
+</br>
+
+`ssh-add -K ~/.ssh/id_rsa`
+Avoiding Terminal to ask for Passphrase for the private key(Adding SSH agent)
+</br>
+
+`ls -al ~/.ssh`
+View all the SSH keys
+</br>
+
+`~/.ssh/config `
+View the SSH configuration file
+</br>
+
+`touch ~/.ssh/config`
+Creating a configuration file for SSH keys
+</br>
+
+`git config --list`
+View the Git configuration file
+</br>
+
+`git config credential.helper`
+Git's stored passwords
+</br>
+
+`git credential-cache exit`
+Clearing a git account saved credentials
 </br>
