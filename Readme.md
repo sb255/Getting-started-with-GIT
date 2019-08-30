@@ -103,8 +103,10 @@ Use this command to view the difference between the staging area and the remote 
 </br>
 
 </br>
-HEAD: HEAD is actually your current commit, or you can say it is your latest commit.</br>
-Origin: The remote repository is known as origin, which is present on the GitHub account.
+
+>`HEAD`: HEAD is actually your current commit, or you can say it is your latest commit.</br>
+`Origin`: The remote repository is known as origin, which is present on the GitHub account.
+
 </br>
 </br>
 
@@ -166,40 +168,49 @@ Used for deleting a branch.</br>
 ```$ git rm --cached -f *.DS_Store```</br>
 Used for removing .DS_Store folder from the remote repository as it was already present before adding the .gitignore to the remote repository.
 </br>
+</br>
 
 
-`cd .ssh`
+`cd .ssh` </br>
 Viewing the private key stored in Mac for SSH
 </br>
+</br>
 
-`ssh-keygen -p -f ~/.ssh/id_rsa`
+`ssh-keygen -p -f ~/.ssh/id_rsa` </br>
 Adding a passphrase to the private key
 </br>
+</br>
 
-`ssh-add -K ~/.ssh/id_rsa`
+`ssh-add -K ~/.ssh/id_rsa` </br>
 Avoiding Terminal to ask for Passphrase for the private key(Adding SSH agent)
 </br>
+</br>
 
-`ls -al ~/.ssh`
+`ls -al ~/.ssh` </br>
 View all the SSH keys
 </br>
+ </br>
 
-`~/.ssh/config `
+`~/.ssh/config ` </br>
 View the SSH configuration file
 </br>
+</br>
 
-`touch ~/.ssh/config`
+`touch ~/.ssh/config` </br>
 Creating a configuration file for SSH keys
 </br>
+</br>
 
-`git config --list`
+`git config --list` </br>
 View the Git configuration file
 </br>
-
-`git config credential.helper`
-Git's stored passwords
 </br>
 
-`git credential-cache exit`
+`git config credential.helper` </br>
+Git's stored passwords
+</br>
+</br>
+
+`git credential-cache exit` </br>
 Clearing a git account saved credentials
 </br>
