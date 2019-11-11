@@ -177,12 +177,12 @@ Viewing the private key stored in Mac for SSH
 </br>
 
 `ssh-keygen -p -f ~/.ssh/id_rsa` </br>
-Adding a passphrase to the private key
+ADDING or UPDATING a passphrase for the private key
 </br>
 </br>
 
 `ssh-add -K ~/.ssh/id_rsa` </br>
-Avoiding Terminal to ask for Passphrase for the private key(Adding SSH agent)
+Avoiding Terminal to ask for Passphrase for the private key(Adding identity to SSH agent)
 </br>
 </br>
 
