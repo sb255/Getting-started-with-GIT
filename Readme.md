@@ -1,10 +1,9 @@
-# Setting-Up-Git-Account
-#### Basics that you need to get started with GIT
+## Getting started with the GitHub account!
 
 Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account.
 
 
-# 1. Generate SSH key from remote server and add it to GITHUB SSH KEYs.
+## Generate SSH key from remote server and add it to GitHub SSH KEYs.
 (Don't use '$' sign in the beginning as in do not copy it to the terminal)
 
 --Setting up the user-name and user-email, it can be set to anything depending upon which name you want to show on your commits!                                                    
@@ -44,7 +43,7 @@ now it works!     <br />
 ------------------------------------------------------------------------------------------------------------------------------
 
 
-# 2. Steps to follow before pushing the files from the repository to GIT account. <br />
+## Steps to follow before pushing the files from the local repository to the remote repository. <br />
 
 
 first of all go to the project folder and the initialize Git init command as:                               <br />
@@ -65,7 +64,7 @@ first of all go to the project folder and the initialize Git init command as:   
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-# Useful Git commads:
+## Useful Git commads:
 
 </br>
 
