@@ -108,6 +108,14 @@ Use this command to view the difference between the staging area and the remote 
 `Origin`: The remote repository is known as origin, which is present on the GitHub account.
 
 </br>
+
+<br>
+```$ git reset --hard commit_id``` </br>
+```$ git push --force``` </br>
+It will undo the changes till the commit_id provided in the above command. commit_id can be found using the git log command. 
+
+</br>
+
 </br>
 
 ```$ git reset --hard HEAD```</br>
