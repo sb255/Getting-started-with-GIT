@@ -109,10 +109,9 @@ Use this command to view the difference between the staging area and the remote 
 
 </br>
 
-<br>
 ```$ git reset --hard commit_id``` </br>
 ```$ git push --force``` </br>
-It will undo the changes till the commit_id provided in the above command. commit_id can be found using the git log command. 
+It will undo the changes till the commit_id provided in the above command. commit_id can be found using the git log command.
 
 </br>
 
