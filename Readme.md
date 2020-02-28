@@ -184,6 +184,7 @@ Viewing the private key stored in Mac for SSH
 `ssh-keygen -p -f ~/.ssh/id_rsa` </br>
 ADDING or UPDATING a passphrase for the private key
 </br>
+>Use a passphrase for the private key to make it even more secure
 </br>
 
 `ssh-add -K ~/.ssh/id_rsa` </br>
