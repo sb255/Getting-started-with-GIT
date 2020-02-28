@@ -112,6 +112,7 @@ Use this command to view the difference between the staging area and the remote 
 ```$ git reset --hard commit_id``` </br>
 ```$ git push --force``` </br>
 It will undo the changes till the commit_id provided in the above command. commit_id can be found using the git log command.
+> The above command is used for DELETING the undesired commits from the repository.
 
 </br>
 
@@ -133,7 +134,7 @@ Meaning: It means to push all local changes from master to your remote repositor
 
 </br>
 
-```$ git push origin master:my_data_branc```h</br>
+```$ git push origin master:my_data_branch```</br>
 It means that you are pushing changes from your local master to remote origin, but it is renamed to origin/my_data_branch.
 </br>
 
@@ -183,13 +184,13 @@ Viewing the private key stored in Mac for SSH
 
 `ssh-keygen -p -f ~/.ssh/id_rsa` </br>
 ADDING or UPDATING a passphrase for the private key
->Use a passphrase for the private key to make it even more secure
+>Use a passphrase for the private key to make it even more secure.
 </br>
 
 `ssh-add -K ~/.ssh/id_rsa` </br>
 Avoiding Terminal to ask for Passphrase for the private key(Adding identity to SSH agent)
 </br>
->You can ignore this command if you want to be asked for a passphrase each time you push, pull etc
+>You can ignore the above command if you want to be asked for a passphrase each time you push, pull etc.
 </br>
 
 `ls -al ~/.ssh` </br>
