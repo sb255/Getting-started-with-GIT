@@ -189,6 +189,7 @@ ADDING or UPDATING a passphrase for the private key
 `ssh-add -K ~/.ssh/id_rsa` </br>
 Avoiding Terminal to ask for Passphrase for the private key(Adding identity to SSH agent)
 </br>
+>You can ignore this command if you want to be asked for a passphrase each time you push, pull etc
 </br>
 
 `ls -al ~/.ssh` </br>
