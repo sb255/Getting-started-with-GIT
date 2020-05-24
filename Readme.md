@@ -238,7 +238,7 @@ Clearing a git account saved credentials
 
 `$ git push --set-upstream origin new-branch`
 
-#### `#2 Now updating the forked repository before the pull request:`
+#### `#2 Now updating the forked repository (origin/master with upstream/master) before creating the pull request:`
 </br>
 
 `$ git remote add upstream url-of-the-original-repository`
