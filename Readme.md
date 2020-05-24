@@ -227,34 +227,34 @@ Clearing a git account saved credentials
 
 #### `#1 Create a branch where changes are to be made:`
 </br>
-$ git branch new-branch
+`$ git branch new-branch`
 
-$ git checkout -b new-branch
+`$ git checkout -b new-branch`
 
-$ git add .
+`$ git add .`
 
-$ git commit -m “Commit Message“
+`$ git commit -m “Commit Message“`
 
-$ git push --set-upstream origin new-branch
+`$ git push --set-upstream origin new-branch`
 
 #### `#2 Now updating the forked repository before the pull request:`
 </br>
-$ git remote add upstream url-of-the-original-repository
+`$ git remote add upstream url-of-the-original-repository`
 
-$ git checkout master
+`$ git checkout master`
 
-$ git pull upstream master
+`$ git pull upstream master`
 
-$ git push origin master
+`$ git push origin master`
 
 #### Now create a pull request!
 
 #### `Alternate to step #2:`
 </br>
-$ git remote add upstream url-of-the-original-repository
+`$ git remote add upstream url-of-the-original-repository`
 
-$ git checkout master
+`$ git checkout master`
 
-$ git merge upstream/master
+`$ git merge upstream/master`
 
-$ git push origin master
+`$ git push origin master`
