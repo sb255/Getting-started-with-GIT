@@ -249,7 +249,7 @@ Clearing a git account saved credentials
 
 `$ git push origin master`
 
-#### Now create a pull request!
+#### *Now create a pull request!*
 
 #### `Alternate to step #2:`
 </br>
@@ -263,3 +263,5 @@ Clearing a git account saved credentials
 `$ git merge upstream/master`
 
 `$ git push origin master`
+
+#### *Now create a pull request!*
