@@ -256,6 +256,8 @@ Clearing a git account saved credentials
 
 `$ git remote add upstream url-of-the-original-repository`
 
+`$ git fetch upstream`
+
 `$ git checkout master`
 
 `$ git merge upstream/master`
