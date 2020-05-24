@@ -1,9 +1,9 @@
-## Getting started with the GitHub account!
+## *Getting started with the GitHub account!*
 
 Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account.
 
 
-## Generate SSH key from remote server and add it to GitHub SSH KEYs.
+## *Generate SSH key from remote server and add it to GitHub SSH KEYs.*
 (Don't use '$' sign in the beginning as in do not copy it to the terminal)
 
 --Setting up the user-name and user-email, it can be set to anything depending upon which name you want to show on your commits!                                                    
@@ -220,3 +220,41 @@ Git's stored passwords
 `git credential-cache exit` </br>
 Clearing a git account saved credentials
 </br>
+
+------------------------------------------------------------------------------------------------------------------------------
+
+## *Creating a pull request:*
+
+#### `#1 Create a branch where changes are to be made:`
+</br>
+$ git branch new-branch
+
+$ git checkout -b new-branch
+
+$ git add .
+
+$ git commit -m “Commit Message“
+
+$ git push --set-upstream origin new-branch
+
+#### `#2 Now updating the forked repository before the pull request:`
+</br>
+$ git remote add upstream url-of-the-original-repository
+
+$ git checkout master
+
+$ git pull upstream master
+
+$ git push origin master
+
+#### Now create a pull request!
+
+#### `Alternate to step #2:`
+</br>
+$ git remote add upstream url-of-the-original-repository
+
+$ git checkout master
+
+$ git merge upstream/master
+
+$ git push origin master
