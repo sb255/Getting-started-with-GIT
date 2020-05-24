@@ -227,6 +227,7 @@ Clearing a git account saved credentials
 
 #### `#1 Create a branch where changes are to be made:`
 </br>
+
 `$ git branch new-branch`
 
 `$ git checkout -b new-branch`
@@ -239,6 +240,7 @@ Clearing a git account saved credentials
 
 #### `#2 Now updating the forked repository before the pull request:`
 </br>
+
 `$ git remote add upstream url-of-the-original-repository`
 
 `$ git checkout master`
@@ -251,6 +253,7 @@ Clearing a git account saved credentials
 
 #### `Alternate to step #2:`
 </br>
+
 `$ git remote add upstream url-of-the-original-repository`
 
 `$ git checkout master`
