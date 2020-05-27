@@ -268,3 +268,5 @@ Clearing a git account saved credentials
 `$ git checkout new-branch`
 
 `$ git merge master`
+
+##### `Now create a pull request from new-branch to upstream/master`
