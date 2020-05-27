@@ -1,10 +1,9 @@
 ## *Getting started with the GitHub account!*
 
-Setting the GIT account and syncing remote repository to github is sometimes tricky.Follow the steps for setting the remote GIT repository and GIT account.
+Setting the GitHub account and syncing remote repository to GitHub is sometimes tricky. Follow the steps for setting the remote GIT repository and GIT account.
 
 
 ## *Generate SSH key from remote server and add it to GitHub SSH KEYs.*
-(Don't use '$' sign in the beginning as in do not copy it to the terminal)
 
 --Setting up the user-name and user-email, it can be set to anything depending upon which name you want to show on your commits!                                                    
 ```$ git config --global user.name "username"```                                                            <br />
