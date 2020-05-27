@@ -238,7 +238,7 @@ Clearing a git account saved credentials
 
 `$ git push --set-upstream origin new-branch`
 
-#### `#2 Now updating the forked repository (origin/master with upstream/master) before creating the pull request:`
+#### `#2 Now updating the remote-repository (master with upstream/master) and forked-repository (origin/master with upstream/master):`
 </br>
 
 `$ git remote add upstream url-of-the-original-repository`
@@ -248,8 +248,6 @@ Clearing a git account saved credentials
 `$ git pull upstream master`
 
 `$ git push origin master`
-
-#### *Now create a pull request!*
 
 #### `Alternate to step #2:`
 </br>
@@ -264,4 +262,9 @@ Clearing a git account saved credentials
 
 `$ git push origin master`
 
-#### *Now create a pull request!*
+#### `#3: Now update the new-branch (as there might be some new commits to the upstream master branch while we were working on our new-branch) with new updated local master(now local master and origin master has been synced with upstream/master using step #2):`
+</br>
+
+`$ git checkout new-branch`
+
+`$ git merge master`
