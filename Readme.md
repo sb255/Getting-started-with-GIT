@@ -239,7 +239,7 @@ Checking local branches and their remotes
 
 `$ git commit -m “Commit Message“`
 
-`$ git push --set-upstream origin new-branch` (afterwards added remote branch can be checked with `git branch -vv`)
+`$ git push --set-upstream origin new-branch` (*afterwards added remote branch can be checked with* `git branch -vv`)
 
 #### `#2 Now updating the local-repository (master branch with upstream/master) and forked-repository (origin/master with upstream/master):`
 </br>
