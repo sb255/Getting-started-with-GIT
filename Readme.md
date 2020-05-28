@@ -1,6 +1,6 @@
 ## *Getting started with the GitHub account!*
 
-Setting the GitHub account and syncing remote repository to GitHub is sometimes tricky. Follow the steps for setting the remote GIT repository and GIT account.
+Setting the GitHub account and syncing local repository to GitHub is sometimes tricky. Follow the steps for setting the remote GIT repository and GIT account.
 
 
 ## *Generate SSH key from remote server and add it to GitHub SSH KEYs.*
@@ -220,6 +220,10 @@ Git's stored passwords
 Clearing a git account saved credentials
 </br>
 
+`git branch -vv` </br>
+Checking local branches and their remotes
+</br>
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## *Creating a pull request:*
@@ -235,9 +239,9 @@ Clearing a git account saved credentials
 
 `$ git commit -m “Commit Message“`
 
-`$ git push --set-upstream origin new-branch`
+`$ git push --set-upstream origin new-branch` (afterwards added remote branch can be checked with git branch -vv)
 
-#### `#2 Now updating the remote-repository (master with upstream/master) and forked-repository (origin/master with upstream/master):`
+#### `#2 Now updating the local-repository (master branch with upstream/master) and forked-repository (origin/master with upstream/master):`
 </br>
 
 `$ git remote add upstream url-of-the-original-repository`
